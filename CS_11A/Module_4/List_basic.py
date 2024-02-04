@@ -18,3 +18,7 @@ print(list1[2]) #print new valu at index 2 of list1
 #Adding
 list1.append(2020)
 print("New List:", list1)
+
+#Insert
+list1.insert(0, 'Python')
+print("After inserting: ", list1)
