@@ -4,4 +4,5 @@ def first(n):
 def sort_list_first(tuples):
     return sorted(tuples, key=first)
 
+#Print list of sorted tuples
 print(sort_list_first([(5,2), (2,1), (4,4), (3,2), (1,2)]))
