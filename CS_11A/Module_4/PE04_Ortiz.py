@@ -48,7 +48,8 @@ basic_food_tuple = ('pasta', 'rice', 'beans', 'salad', 'boiled eggs')
 for food_item in basic_food_tuple:
     print(f"We serve {food_item}.") # print each food_item in basic_food_list
 
-# del basic_food_tuple[4] # Python will throw an error because you cannot modify items in a tuple. Code commented out so program can execute
+# Code line below commented out so rest of program can execute
+# del basic_food_tuple[4] # Python will throw an error because you cannot modify items in a tuple.
 
 basic_food_list = list(basic_food_tuple) # convert tuple to list to edit tuple contents
 basic_food_list[0] = "crackers"
